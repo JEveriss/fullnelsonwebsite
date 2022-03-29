@@ -1,0 +1,23 @@
+.title {
+  position: relative;
+  z-index: -1;
+  margin-bottom: -2rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.title span {
+  display: inline-block;
+}
+
+@media (max-width: 730px) {
+  .title {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    font-size: 4rem;
+  }
+}

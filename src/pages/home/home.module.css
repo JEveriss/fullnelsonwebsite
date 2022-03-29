@@ -1,0 +1,38 @@
+.danzig {
+  height: 80vh;
+  position: relative;
+}
+
+.p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 65%);
+  font-family: "Praise", cursive;
+  font-size: 5rem;
+  width: 60%;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+.home h2 {
+  font-size: 4rem;
+  font-family: "Praise", cursive;
+  margin-bottom: -2rem;
+}
+
+@media (max-width: 870px) {
+  .p {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .p {
+    font-size: 3rem;
+  }
+}

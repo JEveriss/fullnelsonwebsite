@@ -1,0 +1,37 @@
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-style: normal;
+  font-family: "Kreon", serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0;
+}
+section.burger {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+section.burger div {
+  margin-bottom: 1rem;
+}
+
+/* 
+
+<section className={styles.burger}> <<< HOLDS ALL THE BURGERS
+
+  <div key={id}>                    <<< HOLDS THE INDIVDUAL BURGER
+    <h2>{name}</h2>
+    <p>{description}</p>
+    <h3>£{price}</h3>
+  </div>
+
+</section> 
+
+*/

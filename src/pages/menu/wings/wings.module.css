@@ -1,0 +1,33 @@
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-style: normal;
+}
+
+h3 {
+  margin: 0;
+}
+
+div.wings {
+  display: flex;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+div.wings img {
+  display: flex;
+  border-radius: 1.6rem;
+  max-width: 9.6rem;
+  max-height: 9.6rem;
+  float: right;
+  margin: 2rem 0 0 2rem;
+}
+
+@media (max-width: 870px) {
+  p {
+    font-size: 1.2rem;
+  }
+}

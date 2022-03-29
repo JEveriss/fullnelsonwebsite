@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  font-family: "CptHow";
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: #2ae529;
+  max-width: 80%;
+  margin: 1vh auto;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2ae529;
+}
+
+@font-face {
+  font-family: "CptHow";
+  src: local("Fonts"), url(../assets/fonts/CptHow.ttf) format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+
+
+
+.App h1 {
+  font-weight: 100;
+  text-shadow: -0.063rem 0 #fff, 0 0.063rem #fff, 0.063rem 0 #fff,
+    0 -0.063rem #fff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

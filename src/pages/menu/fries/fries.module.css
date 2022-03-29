@@ -1,0 +1,19 @@
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-style: normal;
+}
+
+h3 {
+  margin: 0;
+}
+section.fries {
+  text-align: justify;
+}
+
+section.fries div {
+  margin-bottom: 1rem;
+}

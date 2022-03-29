@@ -1,0 +1,51 @@
+.map {
+  width: 100%;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 2rem 0.5rem;
+}
+div.contactBox section {
+  width: 100%;
+}
+
+.contactDetails {
+  font-size: 1.6rem;
+}
+
+.contactContainer {
+  height: 85vh;
+}
+
+a {
+  font-style: italic;
+}
+
+@media (max-width: 1045px) {
+  .contactBox {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .contactBox {
+    display: block;
+    padding: 0;
+  }
+  /* .contactContainer {
+    height: auto;
+  } */
+  section {
+    margin: 1rem 0;
+  }
+  .map {
+    width: 45%;
+  }
+  .contactDetails {
+    font-size: 1.2rem;
+  }
+}
