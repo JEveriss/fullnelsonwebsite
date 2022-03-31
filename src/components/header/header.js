@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logos.jpeg";
+import logo from "../../assets/images/logos.png";
 import { Link } from "react-router-dom";
 import "./header.css";
 import ScrollToTop from "../scrollToTop/scrollToTop";
@@ -7,7 +7,7 @@ import ScrollToTop from "../scrollToTop/scrollToTop";
 function Header() {
   return (
     <div className="header">
-    <ScrollToTop/>
+      <ScrollToTop />
       <img src={logo} alt="The Full Nelson" />
 
       <nav>

@@ -1,0 +1,28 @@
+.icons img {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.icons:not(:last-child) {
+  margin: 0 2rem 0 0;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-end;
+ 
+
+}
+
+@media (max-width: 590px) {
+  .iconContainer {
+    display: flex;
+    justify-content: space-between;
+    max-height:4rem;
+  }
+  .icons img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: none;
+  }
+}

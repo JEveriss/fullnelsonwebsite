@@ -25,14 +25,38 @@ h1 {
   margin-bottom: -2rem;
 }
 
-@media (max-width: 870px) {
+.mobileHome {
+  display: none;
+}
+.mobileLogo {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 885px) {
   .p {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 730px) {
   .p {
     font-size: 3rem;
+  }
+  .danzig {
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .home {
+    display: none;
+  }
+  .mobileHome {
+    display: flex;
+  }
+  .mobileLogo {
+    margin: 0.5rem 0 2rem 0;
   }
 }
