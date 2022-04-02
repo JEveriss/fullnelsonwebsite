@@ -10,15 +10,14 @@
 .iconContainer {
   display: flex;
   justify-content: flex-end;
- 
-
+  padding: 0 0 0.8rem 0;
 }
 
 @media (max-width: 590px) {
   .iconContainer {
     display: flex;
     justify-content: space-between;
-    max-height:4rem;
+    max-height: 4rem;
   }
   .icons img {
     max-width: 100%;

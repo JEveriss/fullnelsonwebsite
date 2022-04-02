@@ -21,8 +21,16 @@ div.contactBox section {
   height: 85vh;
 }
 
+.contactName {
+  margin: 0;
+}
+
 a {
   font-style: italic;
+}
+
+.address {
+  margin: auto;
 }
 
 @media (max-width: 1045px) {
@@ -36,9 +44,6 @@ a {
     display: block;
     padding: 0;
   }
-  /* .contactContainer {
-    height: auto;
-  } */
   section {
     margin: 1rem 0;
   }
@@ -47,5 +52,18 @@ a {
   }
   .contactDetails {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .contactContainer {
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .contactName {
+    display: none;
+  }
+  .map {
+    width: 70%;
   }
 }

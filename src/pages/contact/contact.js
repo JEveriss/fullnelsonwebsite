@@ -5,8 +5,8 @@ function Contact() {
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactBox}>
-        <section>
-          The Full Nelson
+        <section className={styles.address}>
+          <span className={styles.contactName}>The Full Nelson</span>
           <br />
           47 Deptford Broadway
           <br />

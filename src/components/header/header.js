@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 import "./header.css";
 import ScrollToTop from "../scrollToTop/scrollToTop";
 
-function Header() {
+export default function Header() {
   return (
     <div className="header">
       <ScrollToTop />
       <img src={logo} alt="The Full Nelson" />
-
       <nav>
         <ul>
           <li>
@@ -36,4 +35,7 @@ function Header() {
   );
 }
 
-export default Header;
+
+
+
+
