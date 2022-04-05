@@ -44,9 +44,10 @@ function Menu(props) {
         />
       </div>
       <FriesItem />
-      <div>
-        <img src={buffaloWings} alt="buffalo wings" className={styles.wingz} />
+
+      <div className={styles.wingsBox}>
       <Wings />
+        <img src={buffaloWings} alt="buffalo wings" className={styles.wingz} />
       </div>
     </div>
   );

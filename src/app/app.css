@@ -21,10 +21,7 @@ a {
   src: local("Fonts"), url(../assets/fonts/CptHow.ttf) format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
 
 .App h1 {
   font-weight: 100;
@@ -49,5 +46,11 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    max-width: 95%;
   }
 }

@@ -15,10 +15,10 @@ h3 {
 }
 section.burger {
   text-align: justify;
-  margin-bottom: 1.5rem;
+
 }
 
-section.burger div {
+section.burger div:not(:last-child) {
   margin-bottom: 1rem;
 }
 

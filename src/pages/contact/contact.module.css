@@ -25,7 +25,7 @@ div.contactBox section {
   margin: 0;
 }
 
-a {
+.links {
   font-style: italic;
 }
 
@@ -48,7 +48,7 @@ a {
     margin: 1rem 0;
   }
   .map {
-    width: 45%;
+    width: 17.4rem;
   }
   .contactDetails {
     font-size: 1.2rem;

@@ -14,7 +14,6 @@ h3 {
 div.wings {
   display: flex;
   text-align: left;
-  margin-bottom: 1rem;
 }
 
 div.wings img {
@@ -27,6 +26,11 @@ div.wings img {
 }
 
 @media (max-width: 870px) {
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 590px) {
   p {
     font-size: 1.2rem;
   }

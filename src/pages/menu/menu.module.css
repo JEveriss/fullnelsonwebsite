@@ -25,24 +25,30 @@ img.fonz {
   align-items: center;
 }
 
+.wingsBox{
+  display:flex;
+  align-items: center;
+}
+
 .wingz {
-  display: flex;
+  /* display: flex; */
   border-radius: 1.6rem;
   max-width: 9.6rem;
   max-height: 9.6rem;
-  float: right;
-  margin: 2rem 0 0 2rem;
+  /* float: right;
+  margin: 2rem 0 0 2rem; */
 }
 
 @media (max-width: 590px) {
   .wingz {
     display: none;
   }
-}
+
 img.fonz {
   margin: 1.5rem 0 0 0;
   border-radius: 14px;
 }
 .aboutBurger {
   flex-direction: column;
+}
 }

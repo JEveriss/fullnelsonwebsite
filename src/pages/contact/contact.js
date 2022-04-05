@@ -26,14 +26,14 @@ function Contact() {
       <p className={styles.contactDetails}>
         For reservations please contact us at:
         <br />
-        <a href="mailto:reservations@thefullnelsondeptford.co.uk">
+        <a className="links" href="mailto:reservations@thefullnelsondeptford.co.uk">
           Reservations@TheFullNelsonDeptford.co.uk
         </a>
         <br />
         <br />
         For all other enquiries:
         <br />
-        <a href="mailto:enquiries@thefullnelsondeptford.co.uk">
+        <a className="links" href="mailto:enquiries@thefullnelsondeptford.co.uk">
           Enquiries@TheFullNelsonDeptford.co.uk
         </a>
       </p>
